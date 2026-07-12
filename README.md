@@ -71,10 +71,10 @@ Six conceptually distinct steps:
 
 | # | Paper | Stage | Local path |
 |---|-------|-------|------------|
-| 1 | **Q1** (Beau2026q1) — *Phase coherence and the spin-$\tfrac{1}{2}$ quantum sector* | Phase coherence, singlet correlator, Tsirelson, Born rule at $j=\tfrac{1}{2}$ | [`../q1/`](../q1/) |
-| 2 | **Q2** (Beau2026q2) — *Co-admissibility and $\mathrm{SU}(2)$ as stable fixed point* | Co-admissibility $\lambda_{1/2} = \lambda_{3/2}$, fixed-point selection | [`../q2/`](../q2/) |
-| 3 | **Q3** (Beau2026q3) — *Universal spin-$j$ quantum sector* | Proto-state, universal correlator, Born rule for all admissible $j$ | [`../q3/`](../q3/) |
-| 4 | **Bell paper** (Beau2026b) — *Bell non-applicability in non-injective frameworks* (published, *Quantum Reports* 2026) | Structural non-applicability of Bell factorizability | [`../../bell-paper/`](../../bell-paper/) |
+| 1 | **Q1** (Beau2026q1) — *Phase coherence and the spin-$\tfrac{1}{2}$ quantum sector* | Phase coherence, singlet correlator, Tsirelson, Born rule at $j=\tfrac{1}{2}$ | [`../q1/`](../q1/README.md) |
+| 2 | **Q2** (Beau2026q2) — *Co-admissibility and $\mathrm{SU}(2)$ as stable fixed point* | Co-admissibility $\lambda_{1/2} = \lambda_{3/2}$, fixed-point selection | [`../q2/`](../q2/README.md) |
+| 3 | **Q3** (Beau2026q3) — *Universal spin-$j$ quantum sector* | Proto-state, universal correlator, Born rule for all admissible $j$ | [`../q3/`](../q3/README.md) |
+| 4 | **Bell paper** (Beau2026b) — *Bell non-applicability in non-injective frameworks* (published, *Quantum Reports* 2026) | Structural non-applicability of Bell factorizability | [`../../bell-paper/`](../../bell-paper/README.md) |
 
 ## Status of Results
 
