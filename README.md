@@ -1,5 +1,5 @@
 This repository contains the source of the **Quantum Structure Presentation Note** Cosmochrony paper
-[*The Quantum Structure Sub-Programme — Presentation Note 7*](out/QuantumStructureNote.pdf).
+*The Quantum Structure Sub-Programme — Presentation Note 7*.
 
 This work is a **structured entry point** to the quantum structure sub-programme of the
 Cosmochrony corpus, not a summary of results. It maps the constituent papers, identifies
