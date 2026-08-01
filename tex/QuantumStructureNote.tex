@@ -172,11 +172,11 @@ fibre structure beyond the two-element parity sector of O18 and remains open.
       \;\Longrightarrow\;
       \underbrace{\text{phase coherence}}_{\text{Q1 Thm~2.7}}
       \;\Longrightarrow\;
-      \underbrace{E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}}_{\text{Q1 Thm~2.14}}
+      \underbrace{E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}}_{\text{Q1 Thm~2.15}}
       \;\Longrightarrow\;
-      \underbrace{|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}}_{\text{Q1 Cor~2.16}}
+      \underbrace{|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}}_{\text{Q1 Cor~2.17}}
       \;\Longrightarrow\;
-      \underbrace{\text{Born rule}}_{\text{Q1 Thm~2.18}}
+      \underbrace{\text{Born rule}}_{\text{Q1 Thm~2.19}}
     \end{equation}
     \[
       \;\Longrightarrow\;
@@ -204,12 +204,14 @@ fibre structure beyond the two-element parity sector of O18 and remains open.
 
       \item \textit{Tsirelson bound as corollary (Q1).}
       Since the correlator is derived rather than assumed, the Cauchy--Schwarz bound on the
-      CHSH combination gives $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$ unconditionally.
+      CHSH combination gives $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$ unconditionally within the
+      supplied carrier.
 
       \item \textit{Born rule from structural uniqueness (Q1).}
       The unique probability assignment compatible with positivity and normalisation,
-      linearity of mean values (from coherent amplitudes), and the derived correlator is
-      $P(a=+1|\hat{a}) = |\langle +\hat{a}|\psi\rangle|^2$.
+      linearity of mean values (from the carrier's preserved coherence), and the derived
+      correlator is $P(a=+1|\hat{a}) = |\langle +\hat{a}|\psi\rangle|^2$, conditional on the
+      supplied carrier.
       No Gleason theorem is needed.
 
       \item \textit{$\SU(2)$ as stable fixed point (Q2).}
@@ -249,18 +251,18 @@ fibre structure beyond the two-element parity sector of O18 and remains open.
       Numerically confirmed for $q = 29$: rank $W^{(c)}_n = 0$ exactly throughout the
       admissible regime across all four conjugate pairs.
 
-      \textit{Singlet correlator} (Theorem~2.14; proved, conditional on the supplied carrier).
+      \textit{Singlet correlator} (Theorem~2.15; proved, conditional on the supplied carrier).
       $E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}$ from the four inputs: O23 ($\ImH \cong \su(2)$
       linear observables), Theorem~2.7 (bilinear evaluation from the carrier's preserved
       coherence), O23 (isotropic saturation $M \propto I$), O18 (normalisation from parity
       involution).
 
-      \textit{Tsirelson bound} (Corollary~2.16; proved unconditionally within the carrier).
+      \textit{Tsirelson bound} (Corollary~2.17; proved unconditionally within the carrier).
       $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$; this is now a structural consequence, within the
       supplied carrier, of the geometry of $\ImH$ under admissible projection, not an import
       from quantum mechanics.
 
-      \textit{Born rule} (Theorem~2.18; proved, conditional on the supplied carrier).
+      \textit{Born rule} (Theorem~2.19; proved, conditional on the supplied carrier).
       $P(a=+1|\hat{a}) = |\langle+\hat{a}|\psi\rangle|^2$ is the unique probability assignment
       compatible with the carrier's coherent amplitude structure and the derived correlator.
       Uniqueness follows from the structural constraints; no Gleason theorem is needed.
@@ -311,7 +313,7 @@ fibre structure beyond the two-element parity sector of O18 and remains open.
       \textit{Born rule, all $j$} (Corollary~6.1; proved).
       The unique probability assignment for any admissible sector $\chi_{2j+1}$ is
       $P(m|\hat{a}) = |\langle m|\psi\rangle|^2$, following from the same structural argument
-      as Q1 Theorem~2.18 applied sectorwise.
+      as Q1 Theorem~2.19 applied sectorwise.
 
       \textit{Closure of the $\SU(2)$ quantum sector} (Remark~7.1).
       Combining Q1, Q2, and Q3: (i)~phase coherence derived; (ii)~proto-state is the singlet;
@@ -352,7 +354,10 @@ fibre structure beyond the two-element parity sector of O18 and remains open.
       \begin{table}[ht]
         \centering
         \caption{Summary of results by paper.
-        Status: P = proved; N = numerical evidence.}
+        Status: P = proved; N = numerical evidence.
+        For Q1, Q3, phase coherence and its downstream results (correlator, Tsirelson, Born rule)
+        are conditional on the complex $\SU(2)$ Weil carrier supplied by O18/O23, not derived
+        from it.}
         \label{tab:papers}
         \renewcommand{\arraystretch}{1.2}
         \begin{tabular}{@{}lllll@{}}
@@ -406,7 +411,9 @@ fibre structure beyond the two-element parity sector of O18 and remains open.
 
     \begin{table}[ht]
       \centering
-      \caption{Principal outputs and downstream consumers.}
+      \caption{Principal outputs and downstream consumers.
+      The first two rows are conditional on the supplied Weil carrier of O18/O23 (Status P
+      within that carrier).}
       \label{tab:outputs}
       \renewcommand{\arraystretch}{1.3}
       \begin{tabular}{@{}p{5.5cm}p{4.5cm}l@{}}
@@ -438,14 +445,14 @@ fibre structure beyond the two-element parity sector of O18 and remains open.
         \item \textit{Observable rank signature} (Q1 Corollary~2.9): rank inflation detects any
         coherence violation; falsifiable.
 
-        \item \textit{Singlet correlator at spin-$\tfrac{1}{2}$} (Q1 Theorem~2.14): derived from
+        \item \textit{Singlet correlator at spin-$\tfrac{1}{2}$} (Q1 Theorem~2.15): derived from
         O18, O23, Q1 coherence, conditional on the supplied carrier; no further quantum
         postulate.
 
-        \item \textit{Tsirelson bound} (Q1 Corollary~2.16): $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$;
+        \item \textit{Tsirelson bound} (Q1 Corollary~2.17): $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$;
         unconditional within the supplied carrier.
 
-        \item \textit{Born rule at spin-$\tfrac{1}{2}$} (Q1 Theorem~2.18): unique assignment
+        \item \textit{Born rule at spin-$\tfrac{1}{2}$} (Q1 Theorem~2.19): unique assignment
         compatible with structural constraints, conditional on the supplied carrier; no Gleason
         theorem needed.
 
@@ -462,7 +469,7 @@ fibre structure beyond the two-element parity sector of O18 and remains open.
         $E(\hat{a},\hat{b}) = -\tfrac{j(j+1)}{3}(\hat{a}\cdot\hat{b})$ for all five admissible sectors.
 
         \item \textit{Born rule for all admissible $j$} (Q3 Corollary~6.1): follows from the
-        universal correlator and the uniqueness argument of Q1 Theorem~2.18.
+        universal correlator and the uniqueness argument of Q1 Theorem~2.19.
 
         \item \textit{Bell factorizability non-applicable} (Bell paper~\cite{Beau2026b}):
         proved from non-injectivity and informational completeness of $\Pi$; published in
@@ -483,7 +490,7 @@ fibre structure beyond the two-element parity sector of O18 and remains open.
 
       \begin{enumerate}
         \item \textit{Born rule for general observables.}
-        Theorem~2.18 of Q1 and Corollary~6.1 of Q3 derive the Born rule for the $\SU(2)$
+        Theorem~2.19 of Q1 and Corollary~6.1 of Q3 derive the Born rule for the $\SU(2)$
         parity sector.
         Extension to arbitrary observables (beyond spin-$\tfrac{1}{2}$ and the five admissible
         sectors of $\twoI$), multipartite systems, and continuous spectra requires extending

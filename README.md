@@ -37,11 +37,11 @@ $$\underbrace{F_n \simeq V_\rho,\;\text{BI indisc.}}_{\text{A1--A4, O18}}
 \;\Longrightarrow\;
 \underbrace{\text{phase coherence}}_{\text{Q1 Thm 2.7}}
 \;\Longrightarrow\;
-\underbrace{E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}}_{\text{Q1 Thm 2.14}}
+\underbrace{E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}}_{\text{Q1 Thm 2.15}}
 \;\Longrightarrow\;
-\underbrace{|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}}_{\text{Q1 Cor 2.16}}
+\underbrace{|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}}_{\text{Q1 Cor 2.17}}
 \;\Longrightarrow\;
-\underbrace{\text{Born rule}}_{\text{Q1 Thm 2.18}}$$
+\underbrace{\text{Born rule}}_{\text{Q1 Thm 2.19}}$$
 
 $$\Longrightarrow\;
 \underbrace{\mathrm{SU}(2) \text{ fixed point}}_{\text{Q2 Thm 8.6}}
@@ -58,10 +58,11 @@ Six conceptually distinct steps:
    from isotropic saturation (O23), and unit normalisation from the parity involution (O18)
    force $E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}$, conditional on the supplied carrier.
 3. **Tsirelson bound as corollary** (Q1) — Cauchy--Schwarz on the derived correlator gives
-   $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$ unconditionally.
+   $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$ unconditionally within the supplied carrier.
 4. **Born rule from structural uniqueness** (Q1) — the unique probability assignment
-   compatible with positivity, normalisation, linearity, and the derived correlator is
-   $P(a=+1|\hat{a}) = |\langle +\hat{a}|\psi\rangle|^2$; no Gleason theorem is needed.
+   compatible with positivity, normalisation, linearity (from the carrier's preserved
+   coherence), and the derived correlator is $P(a=+1|\hat{a}) = |\langle +\hat{a}|\psi\rangle|^2$,
+   conditional on the supplied carrier; no Gleason theorem is needed.
 5. **$\mathrm{SU}(2)$ as stable fixed point** (Q2) — co-admissibility
    $\lambda_{1/2} = \lambda_{3/2} = 18$ on $2I$; the admissibility flow under spectral
    refinement in the LPS limit selects $j = \tfrac{1}{2}$ as the unique stable sector.
@@ -88,9 +89,9 @@ complex scalar structure is not derived):**
 - Observable rank signature $\mathrm{rank}\,W^{(c)}_n = 0$ as a falsifiable coherence
   witness (Q1 Corollary 2.9).
 - Singlet correlator $E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}$ at spin-$\tfrac{1}{2}$
-  (Q1 Theorem 2.14).
-- Tsirelson bound $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$ (Q1 Corollary 2.16).
-- Born rule at spin-$\tfrac{1}{2}$ (Q1 Theorem 2.18).
+  (Q1 Theorem 2.15).
+- Tsirelson bound $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$ (Q1 Corollary 2.17).
+- Born rule at spin-$\tfrac{1}{2}$ (Q1 Theorem 2.19).
 - Co-admissibility $\lambda_{1/2} = \lambda_{3/2} = 18$ on $2I$ (Q2).
 - $\mathrm{SU}(2)$ as unique stable fixed point of the admissibility flow (Q2 Theorem 8.6).
 - Proto-state is the singlet for all admissible $j$ (Q3 Theorem 4.1).
