@@ -24,8 +24,9 @@ finite Laplacian-eigenvalue coincidence on $2I$. Q3 proves a theorem conditional
 undemonstrated invariance hypothesis, not derived from admissibility or from Born–Infeld
 indiscernibility. No result in this sub-programme derives phase coherence, a singlet correlator,
 a Tsirelson bound, the Born rule, or a physically preferred sector from the admissibility axioms
-alone. The Bell paper's non-applicability result is unconditional; the proof of its central
-theorem uses only non-injectivity and informational completeness, independent of Q1, Q2, or Q3.
+alone. The Bell paper's claimed implication from non-injectivity to failure of Bell
+factorisation is false: a finite Bell-local countermodel has non-injective observable maps,
+and the paper's PR-box construction has empty support.
 
 ## Constituent Papers
 
@@ -34,7 +35,8 @@ theorem uses only non-injectivity and informational completeness, independent of
 | 1 | **Q1** (Beau2026q1) — *Fourier-Support Rigidity in Conjugate Weil Sectors* | Exact rigidity theorem + no-go corollary; no phase coherence, correlator, Tsirelson bound, or Born rule | Proved | [`../q1/`](../q1/README.md) |
 | 2 | **Q2** (Beau2026q2) — *An Exact Laplacian-Eigenvalue Degeneracy on $2I$* | $\lambda_{1/2}=\lambda_{3/2}=18$; no Casimir/isotropy, Born rule, Tsirelson bound, or fixed point | Proved | [`../q2/`](../q2/README.md) |
 | 3 | **Q3** (Beau2026q3) — *Diagonal $2I$-Invariance Selects the Universal Singlet* | Singlet + Casimir correlator, given an explicit, undemonstrated hypothesis (H-inv) | Conditional | [`../q3/`](../q3/README.md) |
-| 4 | **Bell paper** (Beau2026b) — *Bell non-applicability in non-injective frameworks* (published, *Quantum Reports* 2026) | Structural non-applicability of Bell factorizability; independent of Q1–Q3 | Proved | [`../../bell-paper/`](../../bell-paper/README.md) |
+| 4 | **Bell paper** (Beau2026b) — published in *Quantum Reports* (2026) | Claimed implication from non-injectivity to failure of Bell factorisation is disproved by a finite Bell-local countermodel; PR-box support is empty | Refuted | [Bell README](../../bell-paper/README.md) |
+| 5 | **BellNoGo** (Beau2026BellNoGo) — *Non-Injective Observable Maps Do Not Explain Bell Violations* | Redundant-extension and universal-pushforward theorems; correct obstruction identified as cross-context global-coupling absence (Fine's theorem) | Proved | [`../bell-noninjectivity-no-go/`](../bell-noninjectivity-no-go/README.md) |
 
 ## Status of Results
 
@@ -43,7 +45,9 @@ theorem uses only non-injectivity and informational completeness, independent of
 - $1{,}548$ exact integer-arithmetic checks across six primes, zero failures, plus a negative
   control (Q1, numerical).
 - Laplacian-eigenvalue degeneracy $\lambda_{1/2} = \lambda_{3/2} = 18$ on $2I$ (Q2).
-- Bell factorizability non-applicable in non-injective frameworks (Bell paper, published).
+- Non-injectivity has no Bell-discriminating power: redundant-extension and
+  universal-pushforward theorems, output-entropy refutation, and identification of cross-context
+  global-coupling absence as the correct obstruction (BellNoGo).
 
 **Conditional (on Q3's explicit, undemonstrated hypothesis (H-inv)):**
 - Unique invariant singlet $|\Omega_j\rangle$ for all five admissible sectors (Q3).
@@ -53,6 +57,8 @@ theorem uses only non-injectivity and informational completeness, independent of
 - Phase coherence of the supplied Weil carrier, from the admissibility axioms.
 - Q3's invariance hypothesis (H-inv) itself.
 - The Born rule, in the $\mathrm{SU}(2)$ sector or beyond it.
+- A setting-independent global-coupling obstruction sufficient for Bell non-factorisability;
+  bare non-injectivity is not sufficient.
 - A Tsirelson-type bound.
 - Any sector-selection or fixed-point argument.
 - Multipartite entanglement mixing the spin-$\tfrac12$ and spin-$\tfrac32$ sectors.

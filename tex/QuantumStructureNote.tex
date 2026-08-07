@@ -45,7 +45,8 @@
 
   \begin{abstract}
     The quantum structure sub-programme comprises three companion papers on the binary
-    icosahedral group $\twoI$, plus one independently published result. \textbf{Q1} proves an
+    icosahedral group $\twoI$, plus two papers concerning an independently published result.
+    \textbf{Q1} proves an
     exact, unconditional Fourier-support rigidity theorem in the finite Weil representation of
     the Heisenberg group, with a precise no-go corollary for support-, rank-, and
     Gram-based diagnostics; it establishes no phase coherence, singlet correlator, Tsirelson
@@ -59,17 +60,20 @@
     singlet, with an explicit Casimir correlator, for all five admissible sectors of $\twoI$; it
     does not derive that invariance hypothesis, phase coherence, or the Born rule. No chain
     currently connects these three results to each other or to the structures of quantum
-    mechanics. The \textbf{Bell paper}, published independently in \textit{Quantum Reports},
-    establishes the structural non-applicability of Bell-type factorizability in non-injective
-    effective descriptions; the proof of that central theorem uses only non-injectivity and
-    informational completeness. This note records the current, narrow scope of each constituent and the
-    open problems that remain.
+    mechanics. The \textbf{Bell paper}, published in \textit{Quantum Reports}, does not establish
+    its claimed implication from non-injectivity to failure of Bell factorisation. A finite
+    Bell-local countermodel disproves that implication, and the paper's PR-box construction has
+    empty support. \textbf{BellNoGo} proves the corresponding general no-go theorem and identifies
+    the correct obstruction: not many-to-one behaviour within a single measurement context, but
+    the absence of a setting-independent global coupling across the full family of contexts. Bell
+    non-factorisability therefore remains open within the Cosmochrony framework. This note records
+    the current, narrow scope of each constituent and the open problems that remain.
   \end{abstract}
 
   \medskip
   \noindent\textbf{Keywords.}
   quantum structure; admissibility; binary icosahedral group; Fourier-support rigidity;
-  conditional singlet theorem; Bell non-applicability; SU(2); non-injective projection;
+  conditional singlet theorem; Bell factorisation; SU(2); non-injective projection;
   presentation note.
 
   \newpage
@@ -115,9 +119,9 @@
       None of Q1, Q2, or Q3 derives phase coherence, the Born rule, a singlet correlator, or a
       Tsirelson-type bound from the admissibility axioms. Q1's rigidity theorem and Q2's
       eigenvalue degeneracy are unconditional but narrow. Q3's singlet theorem is conditional on
-      an explicit, stated hypothesis that is itself not derived. The Bell paper's
-      non-applicability result is unconditional; the proof of its central theorem uses only
-      non-injectivity and informational completeness, independent of Q1, Q2, or Q3.
+      an explicit, stated hypothesis that is itself not derived. The Bell paper's central
+      implication is false: non-injectivity alone is compatible with deterministic Bell-local
+      response functions and does not obstruct factorisation.
     \end{remark}
 
   \section{Position in the Cosmochrony Programme}
@@ -200,33 +204,61 @@
       hypothesis throughout. Q3 also does not derive phase coherence, the Born rule, or a
       CHSH/Tsirelson-type bound, and does not select any sector as physically preferred.
 
-    \subsection{Bell paper --- Bell non-applicability}
+    \subsection{Bell paper --- central implication refuted}
       \label{sec:bell}
 
       \textbf{Bell paper}~\cite{Beau2026b} is published in \textit{Quantum Reports}
-      (MDPI, 2026) and is the only published result of the sub-programme. It establishes that
-      Bell-type factorizability does not apply in non-injective effective descriptions, and does
-      not depend on Q1, Q2, or Q3.
+      (MDPI, 2026). Its central claim is that non-injectivity of the observable projection is
+      sufficient to obstruct every Bell-factorisable representation. This implication is false.
 
-      \textit{Non-applicability of Bell factorizability} (proved). In any framework where
-      observable outcomes arise as equivalence classes of underlying configurations under a
-      non-injective map, the standard probabilistic factorization assumption implicit in Bell's
-      theorem does not hold. The proof is structural: it requires only the non-injectivity of
-      $\Pi$ and the informational completeness condition (E2 of ENI~\cite{Beau2026l}). No hidden
-      variable, no non-local dynamics, and no modification of quantum mechanics is introduced.
+      \textit{Finite countermodel}. Let
+      \[
+        \Omega=\{-1,+1\}^{4}\times\{0,1\},
+        \qquad
+        \Pi_{xy}(A_0,A_1,B_0,B_1,r)=(A_x,B_y),
+      \]
+      with the uniform measure. Every $\Pi_{xy}$ is non-injective, with fibres of size eight.
+      Nevertheless $\lambda=\omega$ gives deterministic local response functions,
+      a setting-independent measure, and CHSH value zero. More generally, adjoining an
+      independent erased label makes any Bell-local model non-injective without changing its
+      observable statistics.
 
-      \textit{Mechanism}: observable outcomes correspond to equivalence classes
-      $\Pi^{-1}(O_n)$; distinct configurations within the same class cannot be assigned
-      independent local variables, preventing the joint factorization $p(a,b|\hat{a},\hat{b}) =
-  p(a|\hat{a},\lambda) \cdot p(b|\hat{b},\lambda)$ for any common $\lambda$.
+      \textit{Proof defect}. The formal appendix restricts $\lambda$ to a function of
+      $\Pi(\omega)$. Bell factorisation permits $\lambda=\omega$, so the restriction excludes the
+      candidate variables that the claimed theorem must address.
 
-      \textit{Toy model}: an explicit model produces Bell--CHSH violations while preserving
-      operational no-signalling and statistical independence of measurement settings. The model
-      may exceed the Tsirelson bound (its role is to isolate the structural mechanism, not to
-      reproduce quantum correlations quantitatively).
+      \textit{Toy-model defect}. The PR-box constraints
+      \[
+        a_0b_0=a_0b_1=a_1b_0=+1,
+        \qquad
+        a_1b_1=-1
+      \]
+      have no joint solution. Their product gives $+1=-1$, so the proposed probability measure
+      is supported on the empty set.
 
-      \textit{Operator reformulation}: in the operator language, the same mechanism reformulates
-      as a reduction of the observable algebra to a non-commutative conditional expectation.
+      \textit{Correct status}. Bell violation still implies the absence of a Bell-local
+      factorisation under the standard assumptions. What is missing from the Cosmochrony chain
+      is a derived obstruction to a setting-independent global coupling across all measurement
+      contexts. Bare non-injectivity and a non-trivial kernel of a conditional expectation do
+      not supply that obstruction. The general no-go theorem and the correct obstruction are
+      proved in~\cite{Beau2026BellNoGo}.
+
+    \subsection{BellNoGo --- the correct no-go theorem}
+      \label{sec:bellnogo}
+
+      \textbf{BellNoGo}~\cite{Beau2026BellNoGo} proves the general statement behind the
+      countermodel above. A redundant-extension theorem shows that any Bell-local model can be
+      made arbitrarily non-injective by adjoining independent erased labels without changing any
+      observable probability or Bell functional; a universal-pushforward theorem shows every
+      finite empirical model, Bell-local or not, admits a setting-independent non-injective
+      realisation. Consequently fibre multiplicity and discarded within-fibre information cannot
+      by themselves bound the CHSH value, and output Shannon entropy is shown not to measure
+      non-injectivity (a constant map is maximally non-injective with zero output entropy; an
+      injective map can have maximal output entropy). The paper identifies the correct
+      obstruction in the binary CHSH scenario: the PR parity family has compatible one-site
+      marginals but no setting-independent global coupling over $(A_0,A_1,B_0,B_1)$, matching
+      Fine's theorem and its sheaf-theoretic reformulation. The obstruction is cross-context
+      incompatibility, not many-to-one behaviour within any single context.
 
       \begin{table}[ht]
         \centering
@@ -243,7 +275,8 @@
           Q1 numerical & $1{,}548$ exact checks, six primes, zero failures & N \\
           Q2 & $\lambda_{1/2} = \lambda_{3/2} = 18$ on $\twoI$ (eigenvalue degeneracy) & P \\
           Q3 & Singlet $|\Omega_j\rangle$ and Casimir correlator, given (H-inv) & C \\
-          Bell & Bell factorizability inapplicable in non-injective frameworks & P \\
+          Bell & Non-injectivity as a sufficient obstruction to Bell factorisation & Refuted \\
+          BellNoGo & Redundant-extension no-go theorem; correct obstruction identified & P \\
           \bottomrule
         \end{tabular}
       \end{table}
@@ -260,9 +293,10 @@
         corollary.
         \item \textit{Eigenvalue degeneracy on $\twoI$} (Q2): $\lambda_{1/2} = \lambda_{3/2} = 18$
         for the canonical generating set.
-        \item \textit{Bell factorizability non-applicable} (Bell paper~\cite{Beau2026b}): proved
-        from non-injectivity and informational completeness of $\Pi$; published in
-        \textit{Quantum Reports}.
+        \item \textit{Non-injectivity has no Bell-discriminating power} (BellNoGo): the
+        redundant-extension and universal-pushforward theorems, the explicit Bell-local
+        countermodel, the output-entropy refutation, and the identification of cross-context
+        global-coupling absence as the correct obstruction.
       \end{enumerate}
 
     \subsection{Conditional}
@@ -316,14 +350,16 @@
     conditional on an explicit, undemonstrated invariance hypothesis (Q3). No chain from
     admissibility, or from Born--Infeld indiscernibility, to phase coherence, a singlet
     correlator, a Tsirelson bound, the Born rule, or a physically preferred sector is currently
-    established by these three papers. The independently published Bell paper establishes the
-    structural non-applicability of Bell-type factorizability in non-injective effective
-    descriptions; the proof of its central theorem uses only non-injectivity and informational
-    completeness, independent of Q1, Q2, or Q3.
+    established by these three papers. A finite Bell-local countermodel refutes the published
+    Bell paper's central implication from
+    non-injectivity, and its PR-box construction has empty support. Bell non-factorisability
+    remains open until the programme derives an obstruction to a setting-independent global
+    coupling across measurement contexts.
 
     The primary open problems are: deriving phase coherence of the supplied Weil carrier from
     the admissibility axioms; deriving Q3's invariance hypothesis (H-inv) rather than supplying
-    it; and deriving the Born rule, in the $\SU(2)$ sector or beyond it.
+    it; deriving the Born rule, in the $\SU(2)$ sector or beyond it; and deriving a genuine
+    contextual compatibility obstruction sufficient for Bell non-factorisability.
 
     \newpage
     \bibliographystyle{plain}
