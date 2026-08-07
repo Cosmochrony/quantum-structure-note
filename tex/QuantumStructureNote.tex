@@ -44,34 +44,32 @@
   \maketitle
 
   \begin{abstract}
-    The quantum structure sub-programme of the Cosmochrony corpus addresses a single
-    central question: given the complex $\SU(2)$ amplitude carrier supplied by the Weil
-    representation $\Vr$ (O18, O23), what does the admissible $\SU(2)$ sector force upon it,
-    without importing a further quantum postulate?
-    Starting from the admissibility constraints of A1--A4 on the binary icosahedral group
-    $\twoI$ acting on that supplied carrier, the sub-programme derives:
-    preservation of the carrier's phase coherence (Q1);
-    conditional on that preserved coherence, the singlet correlator
-    $E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}$ (Q1, Q3);
-    the Tsirelson bound $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$ (Q1);
-    the Born rule in the $\SU(2)$ sector (Q1, Q3);
-    the identification of $\SU(2)$ as the unique stable fixed point of the admissibility flow
-    (Q2);
-    the universal spin-$j$ generalisation of all the above for all five admissible sectors
-    $j \in \{\tfrac{1}{2}, 1, \tfrac{3}{2}, 2, \tfrac{5}{2}\}$ of $\twoI$ (Q3);
-    and the structural non-applicability of Bell factorizability in non-injective frameworks
-    (Bell paper).
-    All these results are proved within the $\SU(2)$ sector and are conditional on the
-    supplied complex carrier, whose own complex scalar structure this sub-programme does not
-    derive from A1--A4.
-    Extension to arbitrary observables, multipartite systems, and continuous spectra remains
-    the primary open deliverable.
+    The quantum structure sub-programme comprises three companion papers on the binary
+    icosahedral group $\twoI$, plus one independently published result. \textbf{Q1} proves an
+    exact, unconditional Fourier-support rigidity theorem in the finite Weil representation of
+    the Heisenberg group, with a precise no-go corollary for support-, rank-, and
+    Gram-based diagnostics; it establishes no phase coherence, singlet correlator, Tsirelson
+    bound, or Born rule. \textbf{Q2} proves an exact finite-group fact: the spin-$\tfrac12$ and
+    spin-$\tfrac32$ representations of $\twoI$ induce the same Cayley-graph Laplacian
+    eigenvalue; it establishes no Casimir/isotropy normalisation, Born rule, Tsirelson-type
+    bound, or $\SU(2)$ fixed-point/sector-selection argument. \textbf{Q3} proves a theorem
+    conditional on an explicit, undemonstrated hypothesis: given that a bipartite state on a
+    supplied composition is invariant under the diagonal action of $\twoI$ --- not derived from
+    admissibility or from Born--Infeld indiscernibility --- the state is uniquely the $\SU(2)$
+    singlet, with an explicit Casimir correlator, for all five admissible sectors of $\twoI$; it
+    does not derive that invariance hypothesis, phase coherence, or the Born rule. No chain
+    currently connects these three results to each other or to the structures of quantum
+    mechanics. The \textbf{Bell paper}, published independently in \textit{Quantum Reports},
+    establishes the structural non-applicability of Bell-type factorizability in non-injective
+    effective descriptions; the proof of that central theorem uses only non-injectivity and
+    informational completeness. This note records the current, narrow scope of each constituent and the
+    open problems that remain.
   \end{abstract}
 
   \medskip
   \noindent\textbf{Keywords.}
-  quantum structure; admissibility; phase coherence; Born rule; singlet correlator; Tsirelson
-  bound; Bell non-applicability; SU(2); binary icosahedral group; non-injective projection;
+  quantum structure; admissibility; binary icosahedral group; Fourier-support rigidity;
+  conditional singlet theorem; Bell non-applicability; SU(2); non-injective projection;
   presentation note.
 
   \newpage
@@ -79,264 +77,143 @@
 
   \newpage
 
-  \section{Motivation and Central Question}
+  \section{Motivation and Current Status}
     \label{sec:motivation}
 
-    The quantum structure sub-programme answers the following question.
+    This note surveys the quantum structure sub-programme's three constituent papers on the
+    binary icosahedral group $\twoI$, plus the independently published Bell result, and states
+    plainly what each does and does not establish.
 
     \medskip
-    \noindent\textit{Central question.}
+    \noindent\textit{Original question.}
     The admissibility axioms A1--A4 force the fibre $F_n \simeq \Vr$ with Heisenberg
-    structure (Note~5).
-    They also force the admissibility thread $Q_8 \subset \twoI \subset \SU(2)$, with the
-    spin-$\tfrac{1}{2}$ sector identified as the physically admissible sector (Note~1).
-    The representation $\Vr$ already carries the complex $\SU(2)$ amplitude structure of the
-    Weil representation, supplied by O18 and O23, not derived from A1--A4.
-    \textit{Given that supplied carrier, do the structures of quantum mechanics built upon
-      it --- phase coherence, Born rule, singlet correlator, Bell-type correlations ---
-      follow from admissibility alone, or must they be separately postulated?}
+    structure (Note~5), and the admissibility thread $Q_8 \subset \twoI \subset \SU(2)$, with
+    the spin-$\tfrac{1}{2}$ sector identified as the physically admissible sector (Note~1). The
+    representation $\Vr$ already carries the complex $\SU(2)$ amplitude structure of the Weil
+    representation, supplied by O18 and O23, not derived from A1--A4. \textit{Given that supplied
+    carrier, do the structures of quantum mechanics built upon it --- phase coherence, the Born
+    rule, a singlet correlator, Bell-type correlations --- follow from admissibility alone, or
+    must they be separately postulated?}
 
     \medskip
-    The sub-programme answers: conditional on the supplied carrier, they follow.
-    Phase coherence of that carrier is forced by the BI indiscernibility of conjugate Weil
-    blocks, which is itself a consequence of the admissibility constraint (Q1); admissibility
-    preserves the carrier's coherence rather than producing the carrier itself.
-    The singlet correlator $E = -\hat{a}\cdot\hat{b}$ then follows, within the supplied carrier,
-    from four independently established inputs: linearity of $\su(2)$ observables (O23),
-    bilinearity from the carrier's preserved coherence (Q1), rotational invariance from
-    isotropic saturation (O23), and normalisation from the parity involution (O18).
-    No quantum postulate beyond the supplied carrier is invoked at any step.
-
-    \medskip
-    This sub-programme is the ``first physics'' of the corpus: before spacetime geometry,
-    before gauge structure, before gravity, the admissibility constraints already force
-    quantum correlations upon the supplied complex Weil carrier.
+    \noindent\textit{Current answer.}
+    That derivation is not established. Q1's proved theorem is a representation-theoretic
+    rigidity and no-go result, unrelated to phase coherence or the Born rule. Q2 proves only a
+    finite Laplacian-eigenvalue coincidence. Q3 proves a theorem conditional on an explicit,
+    undemonstrated invariance hypothesis, not derived from admissibility or from Born--Infeld
+    indiscernibility. No result in this sub-programme derives phase coherence, a singlet
+    correlator, a Tsirelson bound, the Born rule, or a physically preferred sector from the
+    admissibility axioms alone.
 
     \begin{remark}[Vocabulary note]
-Throughout this note, admissibility replaces the earlier relaxation vocabulary.
-The substrate $\chi$ is static.
-Quantum structure is not the dynamics of $\chi$ but the algebraic consequence of
-non-injective admissible transitions.
+      Throughout this note, admissibility replaces the earlier relaxation vocabulary. The
+      substrate $\chi$ is static. Quantum structure, where established, is not the dynamics of
+      $\chi$ but the algebraic consequence of non-injective admissible transitions.
     \end{remark}
 
-    \begin{remark}[Scope: SU(2) sector only, and conditional on the supplied carrier]
-All results in this sub-programme are proved within the $\SU(2)$ admissible sector
-on the binary icosahedral group $\twoI$, conditional on the complex Weil amplitude carrier
-supplied by O18 and O23.
-The sub-programme derives that admissibility preserves this carrier's phase coherence and
-uniquely fixes the probability law upon it; it does not derive the carrier's own complex
-scalar structure from Axioms A1--A4.
-Extension to arbitrary observables and multipartite systems requires extending the
-fibre structure beyond the two-element parity sector of O18 and remains open.
+    \begin{remark}[Scope]
+      None of Q1, Q2, or Q3 derives phase coherence, the Born rule, a singlet correlator, or a
+      Tsirelson-type bound from the admissibility axioms. Q1's rigidity theorem and Q2's
+      eigenvalue degeneracy are unconditional but narrow. Q3's singlet theorem is conditional on
+      an explicit, stated hypothesis that is itself not derived. The Bell paper's
+      non-applicability result is unconditional; the proof of its central theorem uses only
+      non-injectivity and informational completeness, independent of Q1, Q2, or Q3.
     \end{remark}
 
   \section{Position in the Cosmochrony Programme}
     \label{sec:position}
 
     The quantum structure sub-programme occupies an early and independent position in
-    Branch~III.
-    It depends on Branch~I (axioms, $F_n \simeq \Vr$, BI parity) and on selected O-series
-    results (O18, O22, O23), but not on the geometry, gauge, or gravity sub-programmes.
-    This logical independence is important: quantum structure is not derived from spacetime;
-    it is prior to it.
+    Branch~III. It depends on Branch~I (axioms, $F_n \simeq \Vr$, BI parity) and on selected
+    O-series results (O18, O22, O23), but not on the geometry, gauge, or gravity sub-programmes.
 
-    Inputs:
-    \begin{itemize}
-      \item Admissible fibre $F_n \simeq \Vr$ and Heisenberg structure (Note~5,
-      Foundation~\cite{Beau2026m}, HeisenbergStructure~\cite{Beau2026HeisenbergStructure}).
-      \item Admissibility thread $Q_8 \subset \twoI \subset \SU(2)$; spin-$\tfrac{1}{2}$ as
-      minimal admissible sector (Note~1, SpectralAdmissibility~\cite{Beau2026a1}).
-      \item $\ImH \cong \su(2)$; three isotropic directions; isotropy condition $M \propto I$
-      (O23~\cite{Beau2026a27}).
-      \item Parity involution $c \leftrightarrow q-c$; unit-norm amplitudes at saturation
-      (O18~\cite{Beau2026a22}; O22~\cite{Beau2026a26}).
-      \item BI indiscernibility of conjugate Weil blocks (BornInfeld~\cite{Beau2026c}).
-    \end{itemize}
+    Of the results once listed here as upstream inputs --- the admissible fibre and Heisenberg
+    structure (Note~5, Foundation~\cite{Beau2026m}, HeisenbergStructure~\cite{Beau2026HeisenbergStructure}),
+    $\ImH \cong \su(2)$ and isotropic saturation (O23~\cite{Beau2026a27}), the parity involution
+    and unit-norm amplitudes (O18~\cite{Beau2026a22}, O22~\cite{Beau2026a26}), and BI
+    indiscernibility of conjugate Weil blocks (BornInfeld~\cite{Beau2026c}) --- none is actually
+    used by the current, narrow content of Q1, Q2, or Q3. The only upstream input the current
+    papers rely on is the Laplacian-eigenvalue data of the spectral admissibility programme
+    (Note~1, SpectralAdmissibility~\cite{Beau2026a1}), which fixes which representation sectors of
+    $\twoI$ are admissible and is used by Q2 and Q3.
 
-    \noindent Outputs feed into:
-    \begin{itemize}
-      \item Note~2 (Emergent Geometry): $\SU(2)$ as the admissible sector motivates the
-      identification $H_{\mathrm{eff}} = \mathrm{Sym}^2(\Vr)$.
-      \item Note~3 (Gauge Structure): the phase coherence and $\SU(2)$ fixed-point
-      identification underpin the gauge-group derivation.
-      \item Note~6 (Fermionic Matter): the Born rule and coherent amplitude structure are
-      assumed in the spinorial sector construction.
-    \end{itemize}
-
-  \section{Logical Chain of the Sub-Programme}
-    \label{sec:chain}
-
-    \begin{equation}
-      \label{eq:chain}
-      \underbrace{F_n \simeq \Vr, \;\text{BI indisc.}}_{\text{A1--A4, O18}}
-      \;\Longrightarrow\;
-      \underbrace{\text{phase coherence}}_{\text{Q1 Thm~2.7}}
-      \;\Longrightarrow\;
-      \underbrace{E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}}_{\text{Q1 Thm~2.15}}
-      \;\Longrightarrow\;
-      \underbrace{|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}}_{\text{Q1 Cor~2.17}}
-      \;\Longrightarrow\;
-      \underbrace{\text{Born rule}}_{\text{Q1 Thm~2.19}}
-    \end{equation}
-    \[
-      \;\Longrightarrow\;
-      \underbrace{\SU(2) \text{ fixed point}}_{\text{Q2 Thm~8.6}}
-      \;\Longrightarrow\;
-      \underbrace{E = -\tfrac{j(j+1)}{3}\hat{a}\cdot\hat{b},\;\text{all }j}_{\text{Q3 Thm~5.2}}
-    \]
-
-    Four structural steps.
-
-    \begin{enumerate}
-      \item \textit{Phase coherence from BI indiscernibility (Q1).}
-      Any admissible transition must preserve the BI indiscernibility of conjugate Weil blocks
-      $\rho_c$ and $\rho_{q-c}$.
-      Destroying this indiscernibility would inflate the rank of the combined Gram--Schmidt span,
-      violating the admissible rank growth of O22.
-      Phase coherence is therefore a structural consequence of admissibility, not a postulate.
-
-      \item \textit{Singlet correlator from four structural inputs (Q1).}
-      Bilinearity (from the carrier's preserved coherence, step~1), linearity of $\su(2)$
-      observables (O23), rotation invariance (isotropic saturation, O23), and unit normalisation
-      (O18 parity) together force $E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}$, conditional on the
-      supplied carrier.
-      No quantum postulate beyond that carrier is invoked.
-
-      \item \textit{Tsirelson bound as corollary (Q1).}
-      Since the correlator is derived rather than assumed, the Cauchy--Schwarz bound on the
-      CHSH combination gives $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$ unconditionally within the
-      supplied carrier.
-
-      \item \textit{Born rule from structural uniqueness (Q1).}
-      The unique probability assignment compatible with positivity and normalisation,
-      linearity of mean values (from the carrier's preserved coherence), and the derived
-      correlator is $P(a=+1|\hat{a}) = |\langle +\hat{a}|\psi\rangle|^2$, conditional on the
-      supplied carrier.
-      No Gleason theorem is needed.
-
-      \item \textit{$\SU(2)$ as stable fixed point (Q2).}
-      The spin-$\tfrac{1}{2}$ and spin-$\tfrac{3}{2}$ sectors of $\twoI$ share the Laplacian
-      eigenvalue $\lambda_{1/2} = \lambda_{3/2} = 18$ (co-admissibility).
-      The admissibility flow --- the sequence of spectral refinements as $p \to \infty$ in the
-      LPS approximation --- selects $j = \tfrac{1}{2}$ as the unique stable fixed point.
-      All larger-$j$ sectors are unstable under the flow.
-
-      \item \textit{Universal spin-$j$ generalisation (Q3).}
-      For all five admissible sectors $j \in \{\tfrac{1}{2}, 1, \tfrac{3}{2}, 2, \tfrac{5}{2}\}$ of
-      $\twoI$: the proto-state is the singlet $|\Omega_j\rangle$ (forced by Schur's lemma on the
-      Clebsch--Gordan decomposition); the universal correlator is
-      $E(\hat{a},\hat{b}) = -\tfrac{j(j+1)}{3}(\hat{a}\cdot\hat{b})$; and the Born rule holds in
-      each sector.
-    \end{enumerate}
+    \noindent No output of this sub-programme currently supplies phase coherence, a correlator,
+    a Tsirelson bound, an $\SU(2)$ fixed-point identification, or the Born rule to any downstream
+    branch. Any paper citing this sub-programme for those results should be re-audited against
+    the current, narrow status recorded below.
 
   \section{Constituent Papers}
     \label{sec:papers}
 
-    \subsection{Phase coherence and the spin-1/2 quantum sector: Q1}
+    \subsection{Q1 --- Fourier-support rigidity}
       \label{sec:q1}
 
-      \textbf{Q1}~\cite{Beau2026q1} is the foundational paper of the sub-programme.
-      Conditional on the complex $\SU(2)$ amplitude carrier supplied by O18 and O23, it establishes
-      the structural derivation of quantum mechanics within the spin-$\tfrac{1}{2}$ sector; the
-      carrier's own complex scalar structure is not derived.
+      \textbf{Q1}~\cite{Beau2026q1} proves an exact, unconditional identity in the finite Weil
+      representation of the Heisenberg group: for every complete BFS shell of the associated
+      Cayley graph, conjugate Weil-sector fingerprint vectors span identical subspaces of
+      $\mathbb{C}^q$. A corollary characterises precisely which diagnostics --- support, rank,
+      subspace projectors, dimensions, principal angles, and any rephasing/permutation-invariant
+      Gram-derived quantity --- are structurally blind to the conjugate-sector distinction.
+      Verified independently by $1{,}548$ exact integer-arithmetic checks across six primes with
+      zero failures, plus a negative control on a deliberately truncated shell.
 
-      \textit{Phase coherence} (Theorem~2.7; proved).
-      Any admissible transition preserves BI indiscernibility of conjugate Weil blocks $\rho_c$
-      and $\rho_{q-c}$, thereby maintaining the metaplectic phase coherence of the fibre.
-      Phase coherence is not postulated; it is the unique behaviour compatible with the
-      admissible rank growth of O22.
-      \textit{Observable signature}: any coherence-destroying transition inflates the rank of
-      the Gram--Schmidt span of $\{\rho_c, \rho_{q-c}\}$ beyond the O22-admissible bound
-      (Corollary~2.9; falsifiable).
-      Numerically confirmed for $q = 29$: rank $W^{(c)}_n = 0$ exactly throughout the
-      admissible regime across all four conjugate pairs.
+      \textbf{What Q1 does not establish}: phase coherence between conjugate Weil blocks, a
+      singlet correlator, a Tsirelson bound, or the Born rule. Q1's own interpretive content is a
+      cautionary methodological point: a numerical near-zero-residual observation can be forced
+      by a construction's own structural degeneracy rather than signal an intended physical
+      mechanism.
 
-      \textit{Singlet correlator} (Theorem~2.15; proved, conditional on the supplied carrier).
-      $E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}$ from the four inputs: O23 ($\ImH \cong \su(2)$
-      linear observables), Theorem~2.7 (bilinear evaluation from the carrier's preserved
-      coherence), O23 (isotropic saturation $M \propto I$), O18 (normalisation from parity
-      involution).
-
-      \textit{Tsirelson bound} (Corollary~2.17; proved unconditionally within the carrier).
-      $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$; this is now a structural consequence, within the
-      supplied carrier, of the geometry of $\ImH$ under admissible projection, not an import
-      from quantum mechanics.
-
-      \textit{Born rule} (Theorem~2.19; proved, conditional on the supplied carrier).
-      $P(a=+1|\hat{a}) = |\langle+\hat{a}|\psi\rangle|^2$ is the unique probability assignment
-      compatible with the carrier's coherent amplitude structure and the derived correlator.
-      Uniqueness follows from the structural constraints; no Gleason theorem is needed.
-
-    \subsection{Co-admissible sectors and the SU(2) fixed point: Q2}
+    \subsection{Q2 --- An exact eigenvalue degeneracy on $\twoI$}
       \label{sec:q2}
 
-      \textbf{Q2}~\cite{Beau2026q2} extends the programme to the spin-$\tfrac{3}{2}$ sector
-      of $\twoI$ and identifies $\SU(2)$ as the unique stable fixed point.
+      \textbf{Q2}~\cite{Beau2026q2} proves an exact finite-group fact: on the binary icosahedral
+      group $\twoI$ with the canonical generating set $S = 10a \cup 10b$, the spin-$\tfrac12$ and
+      spin-$\tfrac32$ representations induce the same Cayley-graph Laplacian eigenvalue,
+      $\lambda_{1/2} = \lambda_{3/2} = 18$, proved via Schur's lemma on the central group-algebra
+      element of the generating-set union. Under the admissibility-window definition
+      $A^{\max}_\rho = c_{\mathrm{BI}}/\sqrt{\lambda_\rho}$, the two sectors have identical
+      admissibility windows on $\twoI$.
 
-      \textit{Co-admissibility of spin-$\tfrac{1}{2}$ and spin-$\tfrac{3}{2}$} (proved).
-      The two sectors share the Laplacian eigenvalue $\lambda_{1/2} = \lambda_{3/2} = 18$ on
-      $\twoI$, making them simultaneously compatible with the admissibility envelope.
+      \textbf{What Q2 does not establish}: phase coherence, a Casimir or isotropy normalisation,
+      a singlet correlator, a Tsirelson-type bound, the Born rule, or an $\SU(2)$
+      fixed-point/sector-selection argument in any continuum or large-prime limit. None of these
+      follow from an eigenvalue coincidence alone.
 
-      \textit{Quantum structure for spin-$\tfrac{3}{2}$} (proved).
-      Phase coherence, the singlet correlator $E = -\tfrac{5}{4}\hat{a}\cdot\hat{b}$, the
-      Tsirelson-type bound, and the Born rule are derived for the $\chi_4$ sector by the same
-      structural arguments as Q1.
-
-      \textit{$\SU(2)$ as stable fixed point} (Theorem~8.6; proved).
-      The admissibility flow selects $j = \tfrac{1}{2}$ as the unique stable sector in the large-$p$
-      LPS limit: all co-admissible $j > \tfrac{1}{2}$ sectors are unstable under spectral
-      refinement.
-      This recovers the standard correlator $E = -\hat{a}\cdot\hat{b}$ and the standard Tsirelson
-      bound $2\sqrt{2}$ as the physically realised values.
-
-    \subsection{Universal spin-j quantum sector: Q3}
+    \subsection{Q3 --- A conditional universal singlet}
       \label{sec:q3}
 
-      \textbf{Q3}~\cite{Beau2026q3} completes the $\SU(2)$ quantum sector for all five
-      admissible sectors of $\twoI$.
-
-      \textit{Proto-state is the singlet, all $j$} (Theorem~4.1; proved).
-      BI indiscernibility forces the proto-state to be invariant under the diagonal $\twoI$-action
-      on $V_j \otimes V_j$.
-      By Schur's lemma on the Clebsch--Gordan decomposition
-      $\chi_{2j+1} \otimes \chi_{2j+1} = \bigoplus_{J=0}^{2j} \chi_{2J+1}$,
-      the unique normalised invariant vector is the singlet $|\Omega_j\rangle$.
-      This closes the open identification step of Q2 for spin-$\tfrac{3}{2}$ and establishes
-      the result for all $j$.
-
-      \textit{Universal correlator} (Theorem~5.2; proved).
-      For any admissible sector $\chi_{2j+1}$ of $\twoI$:
+      \textbf{Q3}~\cite{Beau2026q3} proves a theorem conditional on an explicit hypothesis,
+      stated as an assumption and not derived: for a supplied bipartite carrier
+      $V_{\chi_{2j+1}} \otimes V_{\chi_{2j+1}}$, if a state on that carrier is invariant under the
+      diagonal action of $\twoI$ (hypothesis \textbf{(H-inv)}), then the state is uniquely the
+      $\SU(2)$ singlet $|\Omega_j\rangle$ up to phase, for each of the five admissible sectors
+      $j \in \{\tfrac{1}{2}, 1, \tfrac{3}{2}, 2, \tfrac{5}{2}\}$ of $\twoI$. The proof uses
+      $(V_j \otimes V_j)^{\twoI} \cong \mathrm{Hom}_{\twoI}(V_j^*, V_j)$, one-dimensional by
+      Schur's lemma given irreducibility (an instance of the classical McKay correspondence for
+      $\twoI$) and self-duality (every $\SU(2)$ character is real) of the restricted module.
+      Given the singlet, the
+      two-point correlator follows by an explicit trace computation:
       $E(\hat{a},\hat{b}) = -\tfrac{j(j+1)}{3}(\hat{a}\cdot\hat{b})$.
-      The standard correlator is recovered at $j = \tfrac{1}{2}$ where the normalised
-      prefactor $4 \cdot j(j+1)/3 = 1$ (Table~2 of Q3).
 
-      \textit{Born rule, all $j$} (Corollary~6.1; proved).
-      The unique probability assignment for any admissible sector $\chi_{2j+1}$ is
-      $P(m|\hat{a}) = |\langle m|\psi\rangle|^2$, following from the same structural argument
-      as Q1 Theorem~2.19 applied sectorwise.
+      \textbf{What Q3 does not establish}: (H-inv) itself --- it is not derived from
+      admissibility or from any Born--Infeld indiscernibility argument, and is stated as a bare
+      hypothesis throughout. Q3 also does not derive phase coherence, the Born rule, or a
+      CHSH/Tsirelson-type bound, and does not select any sector as physically preferred.
 
-      \textit{Closure of the $\SU(2)$ quantum sector} (Remark~7.1).
-      Combining Q1, Q2, and Q3: (i)~phase coherence derived; (ii)~proto-state is the singlet;
-      (iii)~universal correlator derived for all $j$; (iv)~Born rule holds in each sector.
-      The admissibility flow of Q2 (Theorem~8.6) selects $j = \tfrac{1}{2}$ as the physical
-      sector in the continuum limit.
-
-    \subsection{Bell non-applicability: Bell paper}
+    \subsection{Bell paper --- Bell non-applicability}
       \label{sec:bell}
 
       \textbf{Bell paper}~\cite{Beau2026b} is published in \textit{Quantum Reports}
-      (MDPI, 2026) and is the only published result of the sub-programme.
-      It establishes that Bell-type factorizability does not apply in non-injective effective
-      descriptions.
+      (MDPI, 2026) and is the only published result of the sub-programme. It establishes that
+      Bell-type factorizability does not apply in non-injective effective descriptions, and does
+      not depend on Q1, Q2, or Q3.
 
-      \textit{Non-applicability of Bell factorizability} (proved).
-      In any framework where observable outcomes arise as equivalence classes of underlying
-      configurations under a non-injective map, the standard probabilistic factorization
-      assumption implicit in Bell's theorem does not hold.
-      The proof is structural: it requires only the non-injectivity of $\Pi$ and the
-      informational completeness condition (E2 of ENI~\cite{Beau2026l}).
-      No hidden variable, no non-local dynamics, and no modification of quantum mechanics
-      is introduced.
+      \textit{Non-applicability of Bell factorizability} (proved). In any framework where
+      observable outcomes arise as equivalence classes of underlying configurations under a
+      non-injective map, the standard probabilistic factorization assumption implicit in Bell's
+      theorem does not hold. The proof is structural: it requires only the non-injectivity of
+      $\Pi$ and the informational completeness condition (E2 of ENI~\cite{Beau2026l}). No hidden
+      variable, no non-local dynamics, and no modification of quantum mechanics is introduced.
 
       \textit{Mechanism}: observable outcomes correspond to equivalence classes
       $\Pi^{-1}(O_n)$; distinct configurations within the same class cannot be assigned
@@ -344,218 +221,109 @@ fibre structure beyond the two-element parity sector of O18 and remains open.
   p(a|\hat{a},\lambda) \cdot p(b|\hat{b},\lambda)$ for any common $\lambda$.
 
       \textit{Toy model}: an explicit model produces Bell--CHSH violations while preserving
-      operational no-signalling and statistical independence of measurement settings.
-      The model may exceed the Tsirelson bound (its role is to isolate the structural
-      mechanism, not to reproduce quantum correlations quantitatively).
+      operational no-signalling and statistical independence of measurement settings. The model
+      may exceed the Tsirelson bound (its role is to isolate the structural mechanism, not to
+      reproduce quantum correlations quantitatively).
 
       \textit{Operator reformulation}: in the operator language, the same mechanism reformulates
       as a reduction of the observable algebra to a non-commutative conditional expectation.
 
       \begin{table}[ht]
         \centering
-        \caption{Summary of results by paper.
-        Status: P = proved; N = numerical evidence.
-        For Q1 and Q3, phase coherence and its downstream results (correlator, Tsirelson, Born
-        rule) are conditional on the complex $\SU(2)$ Weil carrier supplied by O18/O23, not
-        derived from it.}
+        \caption{Summary of results by paper. Status: P~=~proved (unconditional);
+        C~=~conditional on an explicitly stated, undemonstrated hypothesis; N~=~numerical
+        evidence.}
         \label{tab:papers}
         \renewcommand{\arraystretch}{1.2}
-        \begin{tabular}{@{}lllll@{}}
+        \begin{tabular}{@{}lll@{}}
           \toprule
           Paper & Central output & Status \\
           \midrule
-          Q1 & Phase coherence; $E = -\hat{a}\cdot\hat{b}$; Tsirelson; Born rule ($j=\tfrac{1}{2}$) & P \\
-          Q1 numerical & Rank $W^{(c)}_n = 0$ for $q=29$, 4 conjugate pairs & N \\
-          Q2 & Co-admissibility; $\SU(2)$ stable fixed point (Thm~8.6) & P \\
-          Q3 & Proto-state = singlet (all $j$); universal correlator; Born rule (all $j$) & P \\
+          Q1 & Fourier-support rigidity theorem and no-go corollary & P \\
+          Q1 numerical & $1{,}548$ exact checks, six primes, zero failures & N \\
+          Q2 & $\lambda_{1/2} = \lambda_{3/2} = 18$ on $\twoI$ (eigenvalue degeneracy) & P \\
+          Q3 & Singlet $|\Omega_j\rangle$ and Casimir correlator, given (H-inv) & C \\
           Bell & Bell factorizability inapplicable in non-injective frameworks & P \\
           \bottomrule
         \end{tabular}
       \end{table}
 
-  \section{Inputs from Upstream Results}
-    \label{sec:inputs}
-
-    \begin{enumerate}
-      \item \textbf{$F_n \simeq \Vr$ and Heisenberg structure} (Note~5):
-      the identification of the admissible fibre as the Weil representation of
-      $\Heis_3(\mathbb{Z}/q\mathbb{Z})$ and the non-trivial commutator $[X,Y]=Z$ are the
-      algebraic prerequisites for the phase coherence argument.
-
-      \item \textbf{Admissibility thread and $\SU(2)$ sector} (Note~1):
-      the thread $Q_8 \subset \twoI \subset \SU(2)$ and the spin-$\tfrac{1}{2}$ identification
-      (O29) specify the arena for the quantum structure derivation.
-
-      \item \textbf{$\ImH \cong \su(2)$; isotropic saturation} (O23~\cite{Beau2026a27}):
-      the isotropy condition $M \propto I$ and the identification of the three internal
-      directions as $\ImH$ are essential inputs to the correlator derivation.
-
-      \item \textbf{Parity involution and unit-norm amplitudes} (O18~\cite{Beau2026a22};
-      O22~\cite{Beau2026a26}):
-      the parity involution $c \leftrightarrow q-c$ provides the normalisation of the
-      correlator; O22 ensures unit-norm amplitudes at saturation.
-
-      \item \textbf{BI indiscernibility} (BornInfeld~\cite{Beau2026c}):
-      the evenness $\mathcal{S}_{\mathrm{BI}}[-\chi] = \mathcal{S}_{\mathrm{BI}}[\chi]$
-      of the Born--Infeld candidate action supplies the minimal fibre condition and underpins
-      the indiscernibility of conjugate Weil blocks used in Q1.
-
-      \item \textbf{Non-injectivity as structural necessity} (ENI~\cite{Beau2026l}):
-      the Bell paper's non-applicability argument rests directly on the non-injectivity
-      theorem of ENI: any genuinely emergent description has $S_\Pi > 0$, which is what
-      prevents Bell factorization.
-    \end{enumerate}
-
-  \section{Outputs to Downstream Branches}
-    \label{sec:outputs}
-
-    \begin{table}[ht]
-      \centering
-      \caption{Principal outputs and downstream consumers.
-      Phase coherence, the correlator, the Tsirelson bound, and the Born rule (both the
-      $\SU(2)$-sector row and the all-$j$ universal-correlator row) are conditional on the
-      supplied Weil carrier of O18/O23 (Status P within that carrier); the fixed-point and
-      Bell-non-applicability rows are carrier-independent.}
-      \label{tab:outputs}
-      \renewcommand{\arraystretch}{1.3}
-      \begin{tabular}{@{}p{5.5cm}p{4.5cm}l@{}}
-        \toprule
-        Output & Consumer & Status \\
-        \midrule
-        Phase coherence; coherent amplitude structure & Note~6 (fermions), Q-series & P \\
-        $E(\hat{a},\hat{b}) = -\hat{a}\cdot\hat{b}$ (spin-$\tfrac{1}{2}$) & Quantum phenomenology & P \\
-        Tsirelson bound $2\sqrt{2}$ & Foundations applications & P \\
-        Born rule in $\SU(2)$ sector & Quantum measurements & P \\
-        $\SU(2)$ as stable fixed point & Note~1 (admissibility thread) & P \\
-        Universal correlator (all admissible $j$) & Quantum applications & P \\
-        Bell factorizability non-applicability & Quantum foundations & P \\
-        Observable signature: rank $W^{(c)}_n = 0$ & O-series validation & N \\
-        \bottomrule
-      \end{tabular}
-    \end{table}
-
   \section{Status of Results}
     \label{sec:status}
 
-    \subsection{Proved results}
+    \subsection{Proved (unconditional)}
       \label{sec:proved}
 
       \begin{enumerate}
-        \item \textit{Phase coherence} (Q1 Theorem~2.7): admissibility preserves BI
-        indiscernibility; metaplectic phase coherence is a structural consequence.
-
-        \item \textit{Observable rank signature} (Q1 Corollary~2.9): rank inflation detects any
-        coherence violation; falsifiable.
-
-        \item \textit{Singlet correlator at spin-$\tfrac{1}{2}$} (Q1 Theorem~2.15): derived from
-        O18, O23, Q1 coherence, conditional on the supplied carrier; no further quantum
-        postulate.
-
-        \item \textit{Tsirelson bound} (Q1 Corollary~2.17): $|S_{\mathrm{CHSH}}| \leq 2\sqrt{2}$;
-        unconditional within the supplied carrier.
-
-        \item \textit{Born rule at spin-$\tfrac{1}{2}$} (Q1 Theorem~2.19): unique assignment
-        compatible with structural constraints, conditional on the supplied carrier; no Gleason
-        theorem needed.
-
-        \item \textit{Co-admissibility $\lambda_{1/2} = \lambda_{3/2} = 18$} (Q2): proved from
-        the spectral data of $\twoI$.
-
-        \item \textit{$\SU(2)$ as unique stable fixed point} (Q2 Theorem~8.6): the admissibility
-        flow selects $j = \tfrac{1}{2}$ in the LPS limit $p \to \infty$.
-
-        \item \textit{Proto-state is the singlet for all $j$} (Q3 Theorem~4.1): Schur's lemma on
-        the Clebsch--Gordan decomposition; BI indiscernibility.
-
-        \item \textit{Universal spin-$j$ correlator} (Q3 Theorem~5.2):
-        $E(\hat{a},\hat{b}) = -\tfrac{j(j+1)}{3}(\hat{a}\cdot\hat{b})$ for all five admissible sectors.
-
-        \item \textit{Born rule for all admissible $j$} (Q3 Corollary~6.1): follows from the
-        universal correlator and the uniqueness argument of Q1 Theorem~2.19.
-
-        \item \textit{Bell factorizability non-applicable} (Bell paper~\cite{Beau2026b}):
-        proved from non-injectivity and informational completeness of $\Pi$; published in
+        \item \textit{Fourier-support rigidity} (Q1): conjugate Weil-sector fingerprint vectors
+        span identical subspaces on every complete BFS shell, with a precisely scoped no-go
+        corollary.
+        \item \textit{Eigenvalue degeneracy on $\twoI$} (Q2): $\lambda_{1/2} = \lambda_{3/2} = 18$
+        for the canonical generating set.
+        \item \textit{Bell factorizability non-applicable} (Bell paper~\cite{Beau2026b}): proved
+        from non-injectivity and informational completeness of $\Pi$; published in
         \textit{Quantum Reports}.
+      \end{enumerate}
+
+    \subsection{Conditional}
+      \label{sec:conditional}
+
+      \begin{enumerate}
+        \item \textit{Unique invariant singlet, all $j$} (Q3): given the explicit, undemonstrated
+        hypothesis (H-inv) that a bipartite state on a supplied carrier is diagonally
+        $\twoI$-invariant, the state is uniquely $|\Omega_j\rangle$ for each of the five
+        admissible sectors.
+        \item \textit{Casimir correlator} (Q3): given the singlet of the previous item,
+        $E(\hat{a},\hat{b}) = -\tfrac{j(j+1)}{3}(\hat{a}\cdot\hat{b})$.
       \end{enumerate}
 
     \subsection{Numerical evidence}
       \label{sec:numerical}
 
       \begin{enumerate}
-        \item \textit{Rank $W^{(c)}_n = 0$} (Q1): structural indistinguishability confirmed for
-        $q = 29$ across all four conjugate pairs throughout the admissible regime.
-        Extension to $q \in \{61, 101, 151, 211, 307, 401\}$ is identified as a validation target.
+        \item \textit{Multi-prime exact verification} (Q1): $1{,}548$ (shell, block) checks
+        across six primes, zero failures, plus a negative control confirming the criterion
+        correctly detects failure on a deliberately truncated shell.
       \end{enumerate}
 
-    \subsection{Open hypotheses}
+    \subsection{Open}
       \label{sec:open-hyp}
 
       \begin{enumerate}
-        \item \textit{Born rule for general observables.}
-        Theorem~2.19 of Q1 and Corollary~6.1 of Q3 derive the Born rule for the $\SU(2)$
-        parity sector.
-        Extension to arbitrary observables (beyond spin-$\tfrac{1}{2}$ and the five admissible
-        sectors of $\twoI$), multipartite systems, and continuous spectra requires extending
-        the fibre structure beyond the two-element parity case.
-
-        \item \textit{Admissibility flow beyond $\SU(2)$.}
-        Q2 Theorem~8.6 establishes $\SU(2)$ as the stable fixed point within the co-admissible
-        family on $\twoI$.
-        Whether the flow has additional fixed points corresponding to $\SU(3)$ requires
-        identifying the analogue of the $\lambda_{1/2} = \lambda_{3/2}$ co-admissibility
-        condition for a group with $\SU(3)$ structure, connecting to the O-series.
-
-        \item \textit{Multipartite entanglement.}
-        The present derivations are for bipartite systems in the $\SU(2)$ sector.
-        The co-admissibility of spin-$\tfrac{1}{2}$ and spin-$\tfrac{3}{2}$ on $\twoI$ raises
-        the question of entangled states mixing both sectors.
-        A multipartite extension beyond the single-pair setting is open.
+        \item \textit{Phase coherence.} No result in this sub-programme derives phase coherence
+        of the supplied Weil carrier from the admissibility axioms.
+        \item \textit{The invariance hypothesis (H-inv).} Whether Q3's diagonal-invariance
+        hypothesis follows from some further, separately stated admissibility or dynamical
+        principle, rather than being supplied as an assumption, is open.
+        \item \textit{The Born rule.} Not derived by Q1, Q2, or Q3, in the $\SU(2)$ sector or
+        beyond it.
+        \item \textit{A Tsirelson-type bound.} Not established by any constituent of this
+        sub-programme.
+        \item \textit{Sector selection.} No admissibility-flow or fixed-point argument
+        currently selects a physically preferred sector among the admissible representations of
+        $\twoI$.
+        \item \textit{Multipartite entanglement.} The eigenvalue degeneracy of Q2 raises the
+        question of entangled states mixing the spin-$\tfrac12$ and spin-$\tfrac32$ sectors; a
+        multipartite extension beyond Q3's single-pair construction is open.
       \end{enumerate}
-
-  \section{Open Deliverables}
-    \label{sec:open}
-
-    Two operational deliverables define the boundary of the sub-programme.
-    They subsume the three open hypotheses listed in Section~\ref{sec:open-hyp}.
-
-    \textbf{Open deliverable 1: Born rule for general observables.}
-    This is the primary remaining open direction of the quantum bridge programme.
-    The SU(2) case is complete.
-    The general case requires either an extension of the parity-sector argument to arbitrary
-    fibre structures, or a direct Gleason-type theorem for the admissible measure on $\Vr$.
-
-    \textbf{Open deliverable 2: Numerical validation across the full prime range.}
-    The rank-$W_n^{(c)} = 0$ signature of phase coherence has been confirmed for $q = 29$.
-    Systematic verification across $q \in \{29, 61, 101, 151, 211, 307, 401\}$ would
-    provide a comprehensive empirical confirmation and allow tracking of the boundary
-    transition (rank-1 residual at saturation) as a function of $q$.
 
   \section{Conclusion}
     \label{sec:conclusion}
 
-    The quantum structure sub-programme derives the structures of quantum mechanics upon a
-    complex $\SU(2)$ amplitude carrier supplied by O18 and O23, from the admissibility
-    constraints of A1--A4, without importing any further quantum postulate.
-    The carrier's own complex scalar structure is not derived from A1--A4.
+    The quantum structure sub-programme's three constituent papers on $\twoI$ establish, at
+    present: an unconditional representation-theoretic rigidity theorem unrelated to quantum
+    structure (Q1); an unconditional finite-group eigenvalue degeneracy (Q2); and a theorem
+    conditional on an explicit, undemonstrated invariance hypothesis (Q3). No chain from
+    admissibility, or from Born--Infeld indiscernibility, to phase coherence, a singlet
+    correlator, a Tsirelson bound, the Born rule, or a physically preferred sector is currently
+    established by these three papers. The independently published Bell paper establishes the
+    structural non-applicability of Bell-type factorizability in non-injective effective
+    descriptions; the proof of its central theorem uses only non-injectivity and informational
+    completeness, independent of Q1, Q2, or Q3.
 
-    Admissibility preserves the phase coherence of that carrier, forced by BI indiscernibility
-    of conjugate Weil blocks (Q1).
-    Conditional on the preserved carrier, the singlet correlator $E = -\hat{a}\cdot\hat{b}$ and
-    the Tsirelson bound $2\sqrt{2}$ follow from four independently established inputs (Q1).
-    The Born rule is, within the same carrier, the unique probability assignment compatible
-    with the structural constraints (Q1).
-    $\SU(2)$ is the unique stable fixed point of the admissibility flow (Q2).
-    All results extend to the universal spin-$j$ case for all five admissible sectors of
-    $\twoI$ (Q3).
-    Bell factorizability does not apply in non-injective effective descriptions (Bell paper,
-    published in \textit{Quantum Reports}).
-
-    The sub-programme is complete within the $\SU(2)$ sector, conditional on the supplied
-    carrier.
-    The primary open problems are the Born rule for general observables beyond $\SU(2)$, which
-    requires an extension of the fibre structure that the current programme does not yet have,
-    and the derivation of the carrier's own complex scalar structure from A1--A4, which remains
-    outside the scope of this sub-programme.
+    The primary open problems are: deriving phase coherence of the supplied Weil carrier from
+    the admissibility axioms; deriving Q3's invariance hypothesis (H-inv) rather than supplying
+    it; and deriving the Born rule, in the $\SU(2)$ sector or beyond it.
 
     \newpage
     \bibliographystyle{plain}
