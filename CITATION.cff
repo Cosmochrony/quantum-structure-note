@@ -7,6 +7,7 @@ authors:
     given-names: "Jérôme"
 repository-code: "https://github.com/Cosmochrony/quantum-structure-note"
 url: "https://cosmochrony.org/science/quantum-structure/"
+version: "2.0"
 doi: "10.5281/zenodo.20562949"
 license: "CC-BY-4.0"
 preferred-citation:
