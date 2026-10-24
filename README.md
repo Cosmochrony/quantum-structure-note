@@ -8,11 +8,12 @@ than presenting a derivation chain.
 
 ## Current Status
 
-The admissibility axioms A1--A4 force the fibre $F_n \simeq V_\rho$ with Heisenberg structure
-(Note~5) and the admissibility thread $Q_8 \subset 2I \subset \mathrm{SU}(2)$ with the
-spin-$\tfrac{1}{2}$ sector identified as the physically admissible sector (Note~1). $V_\rho$
-already carries the complex $\mathrm{SU}(2)$ amplitude structure of the Weil representation,
-supplied by O18 and O23, not derived from A1--A4.
+The admissibility axioms A1--A4 restrict the algebraic structure of the fibre $F_n$ but do not select it
+(Foundation, HeisenbergStructure): the Heisenberg carrier is supplied, and identifying $F_n$ with its
+Heisenberg--Schrödinger carrier is a conditional modelling dictionary, distinct from the associated Weil module
+$V_\rho$. The admissibility thread $Q_8 \subset 2I \subset \mathrm{SU}(2)$ fixes which representation sectors of
+$2I$ are admissible (Note 1) without selecting a physically preferred one. $V_\rho$ carries the complex
+$\mathrm{SU}(2)$ amplitude structure of the Weil representation, supplied by O18 and O23, not derived from A1--A4.
 
 > Given that supplied carrier, do the structures of quantum mechanics built upon it ---
 > phase coherence, Born rule, singlet correlator, Bell-type correlations --- follow from
