@@ -15,7 +15,7 @@ is distinct from its associated Weil module $V_\rho$. The admissibility thread $
 fixes which representation sectors of $2I$ are admissible (Note 1) without selecting a physically preferred one.
 The complex $\mathrm{SU}(2)$ amplitude structure is carried by a two-dimensional spinor carrier $\mathbb{C}^2$ that
 O23 assumes conditionally (written $V_\rho$ in O23). O23 relates it to the Weil module at explicit levels: for
-$q = 53$ and $q = 101$, the level $W_{<1}$ of the O12 filtration in the Weil module, restricted to its dicyclic
+explicit generic blocks at $q = 53$ and $q = 101$, the level $W_{<1}$ of the O12 filtration in the Weil module, restricted to its dicyclic
 stabiliser $\mathrm{Dic}_q$, decomposes multiplicity-freely and contains exactly two faithful $\mathrm{SU}(2)$-valued
 two-dimensional constituents, each a canonical subspace of $W_{<1}$. Spinor constituents of the restricted Weil
 module therefore exist at those levels, but no rule selecting the spinor carrier among them is derived, and
