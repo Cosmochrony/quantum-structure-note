@@ -8,15 +8,19 @@ than presenting a derivation chain.
 
 ## Current Status
 
-The admissibility axioms A1--A4 restrict the algebraic structure of the fibre $F_n$ but do not select it
-(Foundation, HeisenbergStructure): the Heisenberg carrier is supplied, and identifying $F_n$ with its
-Heisenberg--Schrödinger carrier is a conditional modelling dictionary, distinct from the associated Weil module
-$V_\rho$. The admissibility thread $Q_8 \subset 2I \subset \mathrm{SU}(2)$ fixes which representation sectors of
-$2I$ are admissible (Note 1) without selecting a physically preferred one. The complex $\mathrm{SU}(2)$ amplitude
-structure enters through a separate object, the two-dimensional spinor carrier $\mathbb{C}^2$ that O23 assumes
-conditionally (written $V_\rho$ in O23, not the Weil module above); O18 concerns the parity involution
-$c \leftrightarrow q-c$ between conjugate Weil blocks. No common structure of the Weil module and the spinor
-carrier is established, and neither is derived from A1--A4.
+Under an explicit representation-theoretic reading of the fibre $F_n$, the admissibility axioms A1--A4 restrict
+its algebraic structure but do not select it (Foundation, HeisenbergStructure). The Heisenberg carrier is supplied;
+identifying $F_n$ with its Heisenberg--Schrödinger carrier is a conditional modelling dictionary, and that carrier
+is distinct from its associated Weil module $V_\rho$. The admissibility thread $Q_8 \subset 2I \subset \mathrm{SU}(2)$
+fixes which representation sectors of $2I$ are admissible (Note 1) without selecting a physically preferred one.
+The complex $\mathrm{SU}(2)$ amplitude structure is carried by a two-dimensional spinor carrier $\mathbb{C}^2$ that
+O23 assumes conditionally (written $V_\rho$ in O23). O23 relates it to the Weil module at explicit levels: for
+$q = 53$ and $q = 101$, the level $W_{<1}$ of the O12 filtration in the Weil module, restricted to its dicyclic
+stabiliser $\mathrm{Dic}_q$, decomposes multiplicity-freely and contains exactly two faithful $\mathrm{SU}(2)$-valued
+two-dimensional constituents, each a canonical subspace of $W_{<1}$. Spinor constituents of the restricted Weil
+module therefore exist at those levels, but no rule selecting the spinor carrier among them is derived, and
+neither the Weil module nor the spinor carrier is derived from A1--A4. O18 concerns the parity involution
+$c \leftrightarrow q-c$ between conjugate Weil blocks.
 
 > Given that supplied carrier, do the structures of quantum mechanics built upon it ---
 > phase coherence, Born rule, singlet correlator, Bell-type correlations --- follow from
