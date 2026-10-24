@@ -62,7 +62,8 @@ and the paper's PR-box construction has empty support.
 - Casimir correlator $E(\hat{a},\hat{b}) = -\tfrac{j(j+1)}{3}(\hat{a}\cdot\hat{b})$ (Q3).
 
 **Open:**
-- Phase coherence of the supplied Weil carrier, from the admissibility axioms.
+- Phase coherence of the amplitudes on the supplied carriers (the Weil module and the spinor carrier of O23), from
+  the admissibility axioms.
 - Q3's invariance hypothesis (H-inv) itself.
 - The Born rule, in the $\mathrm{SU}(2)$ sector or beyond it.
 - A setting-independent global-coupling obstruction sufficient for Bell non-factorisability;
