@@ -12,8 +12,11 @@ The admissibility axioms A1--A4 restrict the algebraic structure of the fibre $F
 (Foundation, HeisenbergStructure): the Heisenberg carrier is supplied, and identifying $F_n$ with its
 Heisenberg--Schrödinger carrier is a conditional modelling dictionary, distinct from the associated Weil module
 $V_\rho$. The admissibility thread $Q_8 \subset 2I \subset \mathrm{SU}(2)$ fixes which representation sectors of
-$2I$ are admissible (Note 1) without selecting a physically preferred one. $V_\rho$ carries the complex
-$\mathrm{SU}(2)$ amplitude structure of the Weil representation, supplied by O18 and O23, not derived from A1--A4.
+$2I$ are admissible (Note 1) without selecting a physically preferred one. The complex $\mathrm{SU}(2)$ amplitude
+structure enters through a separate object, the two-dimensional spinor carrier $\mathbb{C}^2$ that O23 assumes
+conditionally (written $V_\rho$ in O23, not the Weil module above); O18 concerns the parity involution
+$c \leftrightarrow q-c$ between conjugate Weil blocks. No common structure of the Weil module and the spinor
+carrier is established, and neither is derived from A1--A4.
 
 > Given that supplied carrier, do the structures of quantum mechanics built upon it ---
 > phase coherence, Born rule, singlet correlator, Bell-type correlations --- follow from
