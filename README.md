@@ -22,7 +22,7 @@ module therefore exist at those levels, but no rule selecting the spinor carrier
 neither the Weil module nor the spinor carrier is derived from A1--A4. O18 concerns the parity involution
 $c \leftrightarrow q-c$ between conjugate Weil blocks.
 
-> Given that supplied carrier, do the structures of quantum mechanics built upon it ---
+> Given these supplied carriers, do the structures of quantum mechanics built upon them ---
 > phase coherence, Born rule, singlet correlator, Bell-type correlations --- follow from
 > admissibility alone, or must they be separately postulated?
 
