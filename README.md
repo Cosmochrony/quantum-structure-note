@@ -10,8 +10,10 @@ than presenting a derivation chain.
 
 Under a representation-theoretic dictionary for the fibre $F_n$ and an additional sector reading of A3, not
 derived, on which a decomposition stable under the admissible generators counts as premature selection, the
-admissibility axioms A1--A4 restrict its algebraic structure but do not select it (Foundation, HeisenbergStructure). The Heisenberg carrier is supplied;
-identifying $F_n$ with its Heisenberg--Schrödinger carrier is a conditional modelling dictionary, and that carrier
+admissibility axioms A1--A4 restrict its algebraic structure but do not select it (Foundation,
+HeisenbergStructure).
+The Heisenberg carrier is supplied; identifying $F_n$ with its Heisenberg--Schrödinger carrier is a conditional
+modelling dictionary, and that carrier
 is distinct from its associated Weil module $V_\rho$. The admissibility thread $Q_8 \subset 2I \subset \mathrm{SU}(2)$
 fixes which representation sectors of $2I$ are admissible (Note 1) without selecting a physically preferred one.
 The complex $\mathrm{SU}(2)$ amplitude structure is carried by a two-dimensional spinor carrier $\mathbb{C}^2$ that
