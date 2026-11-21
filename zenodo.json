@@ -5,5 +5,5 @@
   "main_tex": "tex/QuantumStructureNote.tex",
   "zenodo_id": 20562949,
   "doi": "10.5281/zenodo.20562949",
-  "notes": "Version 2.3 names the hypothesis on which the restriction of the algebraic structure of the admissible fibre depends: under a representation-theoretic dictionary, the admissibility axioms restrict that structure only under an additional sector reading of A3, not derived, on which a decomposition stable under the admissible generators counts as premature selection (Foundation version 2.6, Lemma 5.6). No other statement is changed; the results of the note are unchanged."
+  "notes": "Version 2.3.1. The former upstream input attributed to O22 is described as the locking of the Born-Infeld saturation depth to BFS shells, which does not establish the O21 shell-alignment conjecture. No result of the note is changed."
 }
